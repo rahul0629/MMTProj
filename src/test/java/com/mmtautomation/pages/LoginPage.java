@@ -7,7 +7,7 @@ public class LoginPage {
 	
 	public static void login(WebDriver d)
 	{
-		
+		System.out.println("This is login functionality");
 	
 		
 	}

@@ -18,6 +18,8 @@ public class BaseClass {
 	@BeforeTest
 	public WebDriver intializeDriver() throws Exception
 	{
+		
+		System.out.println("Driver Intialization");
 		Configprop=new Properties();
 		FileInputStream fis=new FileInputStream("E:/Selenium/Code/Java/MMT/TestData.properties");
 		Configprop.load(fis);
